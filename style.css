@@ -1,0 +1,250 @@
+* body {
+	margin:0;
+	padding:0;
+	line-height:150%;
+	font-family:'PTSansRegular', Arial, Helvetica, sans-serif;
+	font-size:medium;
+	color:#000;
+	text-align:left;
+	background:url(images/fundo-loja.jpg) no-repeat top fixed;
+	}
+	
+
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('fonte/pts55f-webfont.eot');
+    src: local('?'), url('fonte/pts55f-webfont.woff') format('woff'), url('fonte/pts55f-webfont.ttf') format('truetype'), url('fonte/pts55f-webfont.svg#PTSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}	
+
+p {
+	font-size:80%;
+	}
+
+h1 {
+	padding:5px 5px 10px;
+	color:#39f;
+	background-color:#222;
+	border-radius:0 0 5px 5px;
+	margin-top:-6px;
+	text-indent:25px;
+	moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	}
+	
+h2 {
+	padding:10px;
+	font-size:120%;
+	background-color:#999;
+	color:#000;
+	moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	border-radius:0 0 5px 5px;	
+	}
+	
+h4{
+	color:#666;
+	font-size:90%;
+	margin:0 8px -15px;
+	}
+	
+h5{
+	color:#666;
+	font-size:90%;
+	margin:0 8px 0;
+	}
+	
+h3 {
+	color:#900;
+	}
+	
+h3:active {
+	color:#000;
+	}
+	
+.creditos {
+	float:right;
+	border:1px solid #e1e1e1;
+	background-color:#f2f2f2;
+	padding:5px;
+	font-size:80%;
+	border-radius:5px;
+	moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);	
+	}
+	
+.esconde {
+	visibility:hidden;
+	}
+	
+.destaque {
+	background-color:#ccc;
+	border:1px solid #666;
+	padding:0 5px;
+	font-size:110%;
+	}
+	
+.fonteMenor {
+	font-size:80%;
+	}
+	
+.preCode {
+	background-color:#ffc;
+	width:auto;
+	height:auto;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+	padding:10px;
+	font-weight:bold;
+	text-align:left;
+	margin:0 auto;
+	}
+	
+.preCode code  {
+	font-size:90%;
+	line-height:1em;
+	white-space: pre;
+	white-space: pre-wrap; 
+	overflow:hidden;
+	display:block;
+}
+
+.preCode .comentarios {
+	color:#888;
+	}
+	
+.informa {
+	padding:5px;
+	background-color:#f2f2f2;
+	border:1px solid #e1e1e1;
+	border-radius:5px;
+	moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);	
+	}	
+	
+.clear {
+	clear:both;
+	}
+	
+table {
+	width:auto;
+	}
+	
+table th, td{
+	font-size:75%;
+	border-bottom:2px solid #ccc;
+	padding:10px;
+	}
+	
+table p {
+	font-size:110%;
+	}
+
+table tbody tr td .preCodeTable {
+	background-color:#ffc;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+	padding:10px;
+	font-weight:bold;
+	text-align:left;
+	margin:0 auto;
+	width:640px;
+	}
+	
+table tbody tr td .preCodeTable code  {
+	font-size:120%;
+	line-height:1em;
+	white-space: pre;
+	white-space: pre-wrap; 
+	overflow:hidden;
+	display:block;
+}
+
+table tbody tr td .preCodeTable .comentariosTable {
+	color:#888;
+	}	
+	
+.informacoesAdicionais {
+	width:250px;
+	margin:-15px auto 25px;
+	border:1px solid #111;
+	padding:5px;
+	font-size:80%;
+	border-radius:0 0 5px 5px;
+	moz-border-radius:0 5px;
+	moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	margin-bottom:25px;
+	}
+	
+.informacoesAdicionais span {
+	font-size:80%;
+	}
+
+#conteudo {
+	width:984px;
+	height:auto;
+	margin:0 auto 45px;
+	}
+	
+#sectionContent {
+	background-color:#222;
+	color:#fff;
+	width:275px;
+	height:650px;
+	border-radius:0 0 5px 5px;
+	moz-border-radius:0 5px;
+	moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+	box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.5);
+	top:0;
+	text-align:left;
+	float:left;
+	position:fixed;
+	margin-bottom:25px;
+	display:table;
+	}
+	
+#sectionContent ol li{
+	list-style-type:decimal;
+	font-size:80%;
+	}
+	
+#sectionContent a {
+	color:#39f;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+#sectionContent a:hover {
+	color:#f90;
+	}
+	
+#sectionDocs {
+	width:680px;
+	height:auto;
+	float:right;
+	padding:5px;
+	background-color:#fff;
+	margin:-45px 0 35px;
+	}
+	
+footer {
+	position:relative;
+	}
+	
+a.linkCorpo {
+	color:#39f;
+	font-weight:bold;
+	}
+
+a.linkCorpo:hover {
+	color:#339;
+	}
+	
